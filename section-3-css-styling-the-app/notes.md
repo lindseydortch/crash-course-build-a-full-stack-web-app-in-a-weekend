@@ -76,13 +76,34 @@
 - :link - will only style anchor elements with the href attribute
 
 ## Styling Buttons
-- 
+- To create a gradient, we don't use background-color, we use background-image and specify a linear-gradient
+- Some elements do not inherit anything, but we can tell them to inherit 
+- Reminder that CSS files are read from top to bottom 
 
 ## Developer Skill: Googling and Reading Documentation
-- 
+- A key skill for developers is to be able to google and read documentation 
+  - Example of finding how to find how to round a button using css 
+    - `css how to make rounded corners`
+      - Avoid results from W3 Schools 
+      - Best is going to be from MDN, but also CSS tricks is good as well 
+- When doing border-radius, make your value really big if you're going for a pill ship, to account for buttons of a different height
 
 ## Styling the Voting Buttons
+- Adding too many classes in the html can make it super difficult to read 
+- The defualt weight for our font is 400, but we don't have to specify that 
+- We nested flexbox, so it can get a little confusing, we set a shrink on the parent 
+  - flex-shrink: 0 - we no longer allow our flex-item to shrink 
 
 ## Styling Form Elements
+- You select the placeholder using `::placeholder` 
+  - :: - means this is a pseudo-element
+- Reminder: width works differently on flex items 
+  - Flex-grow: 1 - take up all the space it wishes too 
+  - flex-grow default is set to 0 
 
 ## Adapting the Layout to Smaller Screens
+- There are many tools we can use for responsive web design 
+  - We will use media queries 
+- When using the responsive design in inspector, set to responsive and 75%
+- Media queries need to be after the original definition 
+  - You can set your media queries in a different file, but it's better to keep it close to the thing you are changing 
