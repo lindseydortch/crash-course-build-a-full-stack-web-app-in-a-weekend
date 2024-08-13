@@ -85,4 +85,4 @@
 - All form elements including buttons can have a disabled attribute 
 
 ## Handling Votes and Updating a Fact on Supabase
-- 
+- Added in functionality for handling votes on our app 
